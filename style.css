@@ -1,0 +1,317 @@
+@import url("http://fonts.cdnfonts.com/css/sofia-pro");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Sofia Pro", sans-serif, monospace;
+}
+
+/* Navbar CSS Start */
+.navbar .navbar-brand {
+  margin-right: 0rem;
+  font-size: 3rem;
+}
+
+.navbar .nav-item {
+  margin-right: 3rem;
+}
+
+.navbar .nav-item:last-child {
+  margin-right: 0rem;
+}
+
+.navbar .nav-item .nav-link {
+  font-weight: 500;
+  padding: 0rem 1rem;
+  font-size: 2rem;
+}
+
+.d-flex .btn {
+  border-width: 0rem;
+  padding: 1.2rem 5rem;
+  border-radius: 1.2rem;
+  font-size: 1.2rem;
+}
+/* Navbar CSS End */
+
+/* Banner CSS Start */
+.banner {
+  background-image: url(../Assets/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner .col-md-8 {
+  height: 90vh;
+}
+
+.banner-sub-heading {
+  margin: 0rem;
+  font-size: 5rem;
+  word-break: break-word;
+}
+
+.banner-main-heading {
+  margin: 0rem;
+  font-weight: bold;
+  font-size: 9.5rem;
+  word-break: break-word;
+}
+
+.banner-text {
+  margin: 0rem;
+  padding: 1.5rem 0rem;
+  font-size: 1.8rem;
+  word-break: break-word;
+}
+
+.Play-Radio-button {
+  margin-top: 1rem;
+  border-width: 0rem;
+  padding: 1.4rem 5rem;
+  border-radius: 1.2rem;
+}
+/* Banner CSS End */
+
+/* Show Section CSS Start */
+.show {
+  background-color: #e5e5e5;
+  padding: 5rem 0rem;
+}
+
+.show-main-heanding {
+  font-size: 5rem;
+  font-weight: 600;
+  margin-bottom: 5rem;
+}
+
+.show-main-img,
+.show-sub-img {
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 3.2rem;
+  margin: 0rem;
+  padding: 1rem 0rem;
+}
+
+.card-text {
+  font-size: 2rem;
+  margin: 0rem;
+  color: #666666ad;
+}
+
+.show .btn {
+  margin-top: 2rem;
+  padding: 1.4rem 5rem;
+  border-radius: 1.2rem;
+  font-size: 1.2rem;
+}
+/* Show Section CSS End */
+
+/* Weekend-show Section CSS Start */
+.Weekend-show {
+  padding: 5rem 0rem;
+}
+
+.show-small-heading {
+  font-size: 3rem;
+  margin: 0rem;
+  padding: 1rem 0rem;
+}
+
+.show-main-heading {
+  font-weight: 600;
+  font-size: 4rem;
+  margin: 0rem;
+  padding: 1rem 0rem;
+}
+
+.show-text {
+  font-size: 1.8rem;
+  margin: 0rem;
+  padding: 1rem 0rem;
+  color: #666666ad;
+}
+
+.Weekend-show .btn {
+  margin-top: 1rem;
+  border-width: 0rem;
+  padding: 1.4rem 5rem;
+  border-radius: 1.2rem;
+  font-size: 1.2rem;
+}
+/* Weekend-show Section CSS End */
+
+/* Our-Review Section CSS Start */
+.Our-Review {
+  background-color: #e5e5e5;
+  padding: 5rem 0rem;
+}
+
+.review-main-heading {
+  margin: 0rem;
+  padding: 2rem 0rem;
+  font-size: 5rem;
+}
+
+.review-card {
+  margin: 2rem 1.2rem;
+  padding: 1.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+
+.review-main-title {
+  margin: 0rem;
+  font-size: 3.2rem;
+}
+
+.review-text,
+.review-sub-title {
+  margin: 0rem;
+  font-size: 1.8rem;
+  color: #666666ad;
+}
+/* Our-Review Section CSS End */
+
+/* Radio Section CSS Start */
+.radio {
+  padding: 5rem 0rem;
+}
+
+.radio .col-md-6 {
+  padding: 1rem;
+}
+
+.radio-program-main-heading {
+  font-size: 8.5rem;
+  font-weight: 600;
+  margin: 0rem;
+  padding: 1rem 0rem;
+  word-break: break-word;
+}
+
+.redio-program-text {
+  font-size: 1.8rem;
+  margin: 0rem;
+  padding: 1rem 0rem;
+}
+
+.radio .btn {
+  margin-top: 1rem;
+  padding: 1.4rem 5rem;
+  border-radius: 1.2rem;
+  font-size: 1.2rem;
+}
+/* Radio Section CSS End */
+
+/* Subscribe Section CSS Start */
+.Subscribe {
+  background-image: url(../Assets/Group\ 48.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe-main-heading {
+  font-size: 5rem;
+  color: #fff;
+  margin: 0rem;
+  padding: 1rem;
+}
+
+.subscribe-form-box {
+  background-color: #fff;
+  border-radius: 2rem;
+  width: 35%;
+  margin: auto;
+}
+
+.subscribe-form-box input {
+  max-width: 90%;
+  width: 90%;
+  margin: 0rem;
+  border-width: 0rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+}
+
+.Subscribe .btn {
+  padding: 0rem;
+  font-size: 1.4rem;
+  border: 0px solid transparent;
+}
+/* Subscribe Section CSS */
+
+/* Footer Section CSS Start */
+.footer {
+  padding-top: 5rem;
+}
+
+.footer-heading {
+  margin: 0rem;
+  padding: 1rem 0rem;
+  font-size: 2rem;
+}
+
+.main-list {
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.footer-items {
+  list-style: none;
+  padding: 0.5rem 0rem;
+}
+
+.footer-link,
+.bottom-footer-link {
+  font-size: 1.2rem;
+  color: #666666ad;
+  text-decoration: none;
+}
+
+.Follow-Us li {
+  display: inline;
+  font-size: 2.8rem;
+  margin-right: 1rem;
+}
+
+.follow-us-text {
+  padding: 1rem 0rem;
+  color: #666666ad;
+  font-size: 1.2rem;
+  margin: 0rem;
+}
+
+footer hr {
+  margin: 1rem 0rem;
+}
+
+.bottom-list {
+  text-align: end;
+  padding: 2rem 0rem;
+  margin-bottom: 0rem;
+}
+
+.bottom-list li {
+  display: inline;
+  padding: 0.5rem 1rem;
+}
+/* Footer Section CSS End */
